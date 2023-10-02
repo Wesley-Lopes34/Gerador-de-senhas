@@ -102,3 +102,10 @@ body{
     bottom: 50px;
     opacity: 1;
 }
+
+footer {
+    position: relative;
+   
+    text-align: center;
+    line-height: 75px;
+}
