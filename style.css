@@ -1,0 +1,102 @@
+*{
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+body{
+    background-color: #181818;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nome-logo{
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.container-input{
+    max-width: 488px;
+    margin: 14px 8;
+}
+
+.container-input span{
+    color: #fff;
+    font-size: 22px;   
+}
+
+.slider{
+    -webkit-appearance: none;
+    width: 100%;
+    border-radius: 5px;
+    background: #dfdfdf;
+}
+
+.button-cta{
+    height: 40px;
+    background-color: #3eb72b;
+    border: 0;
+    border-radius: 4px;
+    margin-top: 25px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.container-password{
+    max-width: 480px;
+    margin: 14px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#title{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.password{
+    height: 60px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.40);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
+}
+
+.password:hover{
+    transform: scale(1.05);
+}
+
+.tooltip{
+    position: relative;
+    top: 20px;
+    padding: 6px 8px;
+    background: rgb(15, 15, 15);
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.hide{
+    display: none;
+}
+
+.container-password .tooltip{
+    visibility: visible;
+}
